@@ -10,8 +10,8 @@ spec:
     targetRevision: HEAD
     path: dev
   destination:
-    server: https://kubernetes.default.svc
-    namespace: myapp
+    server: https://34.16.5.69
+    namespace: argo-kust
   syncPolicy:
     syncOptions:
     - CreateNameSpace : true
